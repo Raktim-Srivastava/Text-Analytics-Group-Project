@@ -13,6 +13,7 @@ import nltk
 import re
 nltk.download('omw-1.4')
 nltk.download('stopwords')
+nltk.download('wordnet')
 import contractions
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer  
