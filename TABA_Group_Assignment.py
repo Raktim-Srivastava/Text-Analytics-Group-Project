@@ -14,6 +14,7 @@ import re
 nltk.download('omw-1.4')
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('punkt')
 import contractions
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer  
