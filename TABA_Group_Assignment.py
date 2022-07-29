@@ -16,7 +16,7 @@ nltk.download('stopwords')
 import contractions
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer  
-lemma = WordNetLemmatizer()
+
 from gensim.parsing.preprocessing import strip_punctuation, strip_tags, strip_numeric
 
 # For visualization
@@ -55,6 +55,7 @@ def replace_all(text, dic):
     return text
 
 def textClean(text):
+    lemma = WordNetLemmatizer()
     cleantext = " ".join([lemma.lemmatize(word.lower()) for word in strip_numeric(strip_punctuation(text)).split()])
     return cleantext
 
