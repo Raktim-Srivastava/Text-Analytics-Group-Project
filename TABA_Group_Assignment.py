@@ -12,6 +12,7 @@ import numpy as np
 import nltk
 import re
 nltk.download('omw-1.4')
+nltk.download('stopwords')
 import contractions
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer  
