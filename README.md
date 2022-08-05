@@ -17,5 +17,9 @@ We as (technical) consultants to Uber. have to:
 [b] relate whether and which different features of these reviews impact overall ratings
 [c] pinpoint possible areas of improvement.
 
-## Streamlit App:
-https://raktim-srivastava-text-analytics-g-taba-group-assignment-mt0aqv.streamlitapp.com/
+# Solution
+The notebook __TA_Assignment_combined_XI.ipynb__ can be donwloaded and run in local machine. All the package requirements are mentioned in __requirements.txt__ file. Have these packages available in the environment where this notebook is run.
+
+### Streamlit App:
+
+The Streamlit Application is hosted and can be accessed from this link : https://raktim-srivastava-text-analytics-g-taba-group-assignment-mt0aqv.streamlitapp.com/
